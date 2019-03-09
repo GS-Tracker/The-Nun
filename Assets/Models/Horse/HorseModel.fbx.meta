@@ -1,0 +1,311 @@
+fileFormatVersion: 2
+guid: ad9982fca4a3f464d89f99f7a2b7ab3d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.002
+    100008: Bone.002_end
+    100010: Bone.003
+    100012: Bone.004
+    100014: Bone.005
+    100016: Bone.006
+    100018: Bone.007
+    100020: Bone.007_end
+    100022: Bone.008
+    100024: Bone.009
+    100026: Bone.010
+    100028: Bone.011
+    100030: Bone.012
+    100032: Bone.013
+    100034: Bone.013_L.001
+    100036: Bone.013_L.002
+    100038: Bone.013_L.002_end
+    100040: Bone.013_R.001
+    100042: Bone.013_R.002
+    100044: Bone.013_R.002_end
+    100046: Bone.014
+    100048: Bone.014_end
+    100050: Bone.015
+    100052: Bone_L
+    100054: Bone_L.001
+    100056: Bone_L.002
+    100058: Bone_L.003
+    100060: Bone_L.004
+    100062: Bone_L.004_end
+    100064: Bone_L.005
+    100066: Bone_L.006
+    100068: Bone_L.007
+    100070: Bone_L.008
+    100072: Bone_L.009
+    100074: Bone_L.009_end
+    100076: Bone_L.010
+    100078: Bone_L.010_end
+    100080: Bone_L.011
+    100082: Bone_L.011_end
+    100084: Bone_L.012
+    100086: Bone_L.013
+    100088: Bone_R
+    100090: Bone_R.001
+    100092: Bone_R.002
+    100094: Bone_R.003
+    100096: Bone_R.004
+    100098: Bone_R.004_end
+    100100: Bone_R.005
+    100102: Bone_R.006
+    100104: Bone_R.007
+    100106: Bone_R.008
+    100108: Bone_R.009
+    100110: Bone_R.009_end
+    100112: Bone_R.010
+    100114: Bone_R.010_end
+    100116: Bone_R.011
+    100118: Bone_R.011_end
+    100120: Bone_R.012
+    100122: Bone_R.013
+    100124: Camera
+    100126: Carriage
+    100128: Horse
+    100130: Horse_reins_leather
+    100132: Horse_reins_metal
+    100134: //RootNode
+    100136: Lamp
+    100138: Wheels
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.002
+    400008: Bone.002_end
+    400010: Bone.003
+    400012: Bone.004
+    400014: Bone.005
+    400016: Bone.006
+    400018: Bone.007
+    400020: Bone.007_end
+    400022: Bone.008
+    400024: Bone.009
+    400026: Bone.010
+    400028: Bone.011
+    400030: Bone.012
+    400032: Bone.013
+    400034: Bone.013_L.001
+    400036: Bone.013_L.002
+    400038: Bone.013_L.002_end
+    400040: Bone.013_R.001
+    400042: Bone.013_R.002
+    400044: Bone.013_R.002_end
+    400046: Bone.014
+    400048: Bone.014_end
+    400050: Bone.015
+    400052: Bone_L
+    400054: Bone_L.001
+    400056: Bone_L.002
+    400058: Bone_L.003
+    400060: Bone_L.004
+    400062: Bone_L.004_end
+    400064: Bone_L.005
+    400066: Bone_L.006
+    400068: Bone_L.007
+    400070: Bone_L.008
+    400072: Bone_L.009
+    400074: Bone_L.009_end
+    400076: Bone_L.010
+    400078: Bone_L.010_end
+    400080: Bone_L.011
+    400082: Bone_L.011_end
+    400084: Bone_L.012
+    400086: Bone_L.013
+    400088: Bone_R
+    400090: Bone_R.001
+    400092: Bone_R.002
+    400094: Bone_R.003
+    400096: Bone_R.004
+    400098: Bone_R.004_end
+    400100: Bone_R.005
+    400102: Bone_R.006
+    400104: Bone_R.007
+    400106: Bone_R.008
+    400108: Bone_R.009
+    400110: Bone_R.009_end
+    400112: Bone_R.010
+    400114: Bone_R.010_end
+    400116: Bone_R.011
+    400118: Bone_R.011_end
+    400120: Bone_R.012
+    400122: Bone_R.013
+    400124: Camera
+    400126: Carriage
+    400128: Horse
+    400130: Horse_reins_leather
+    400132: Horse_reins_metal
+    400134: //RootNode
+    400136: Lamp
+    400138: Wheels
+    2000000: Camera
+    2100000: baked_horse
+    2100002: horse
+    2100004: Carriage
+    2100006: Horse_reins_metal
+    2100008: Horse_reins_leather
+    2300000: Carriage
+    2300002: Horse_reins_leather
+    2300004: Horse_reins_metal
+    2300006: Wheels
+    3300000: Carriage
+    3300002: Horse_reins_leather
+    3300004: Horse_reins_metal
+    3300006: Wheels
+    4300000: Horse
+    4300002: Wheels
+    4300004: Carriage
+    4300006: Horse_reins_metal
+    4300008: Horse_reins_leather
+    7400000: Armature|Trot Cycle.001
+    7400002: Armature|Walk Cycle
+    9500000: //RootNode
+    10800000: Lamp
+    13700000: Horse
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Trot Cycle.001
+      takeName: Armature|Trot Cycle.001
+      firstFrame: 0
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk Cycle
+      takeName: Armature|Walk Cycle
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

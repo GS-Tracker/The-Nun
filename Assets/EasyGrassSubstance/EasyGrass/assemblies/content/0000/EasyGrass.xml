@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sbsdescription SYSTEM "sbsdescription.dtd">
+<sbsdescription formatversion="2.1" asmuid="2459730718" cookerbuild="19634" content="full">
+	<graphs count="1">
+		<graph pkgurl="pkg://EasyGrass" label="EasyGrass" author="Andrew McShane - PolyLabs">
+			<sbspresets/>
+			<guigroups/>
+			<outputs count="5">
+				<output uid="2861581416" identifier="basecolor"
+					format="16" width="256" height="256" mipmaps="0" dynamicsize="yes">
+					<outputgui label="Base Color" group="Material">
+						<channels>
+							<channel names="baseColor"/>
+						</channels>
+					</outputgui>
+				</output>
+				<output uid="2861581418" identifier="normal"
+					format="16" width="256" height="256" mipmaps="0" dynamicsize="yes">
+					<outputgui label="Normal" group="Material">
+						<channels>
+							<channel names="normal"/>
+						</channels>
+					</outputgui>
+				</output>
+				<output uid="2861581420" identifier="roughness"
+					format="12" width="256" height="256" mipmaps="0" dynamicsize="yes">
+					<outputgui label="Roughness" group="Material">
+						<channels>
+							<channel names="roughness"/>
+						</channels>
+					</outputgui>
+				</output>
+				<output uid="2861581422" identifier="metallic"
+					format="0" width="16" height="16" mipmaps="0">
+					<outputgui label="Metallic" group="Material">
+						<channels>
+							<channel names="metallic"/>
+						</channels>
+					</outputgui>
+				</output>
+				<output uid="2935094285" identifier="height"
+					format="28" width="256" height="256" mipmaps="0" dynamicsize="yes">
+					<outputgui label="Height" group="Materials">
+						<channels>
+							<channel names="height"/>
+						</channels>
+					</outputgui>
+				</output>
+			</outputs>
+			<inputs count="6">
+				<input uid="3625370201" identifier="$outputsize"
+					type="8" default="8,8" alteroutputs="2861581416,2861581418,2861581420,2935094285" alternodes="0"/>
+				<input uid="2405749771" identifier="$randomseed"
+					type="4" default="0" alteroutputs="2861581416,2861581418,2861581420,2935094285" alternodes="0"/>
+				<input uid="2935067436" identifier="Zoom"
+					type="4" default="5" alteroutputs="2861581416,2861581418,2861581420,2935094285" alternodes="0">
+					<inputgui widget="slider" label="Zoom">
+						<guislider  min="4" max="6" step="1"/>
+					</inputgui>
+				</input>
+				<input uid="2935067512" identifier="Grass_Thickness"
+					type="4" default="3" alteroutputs="2861581416,2861581418,2861581420,2935094285" alternodes="0">
+					<inputgui widget="slider" label="Grass Thickness">
+						<guislider  min="1" max="3" step="1"/>
+					</inputgui>
+				</input>
+				<input uid="2934993583" identifier="Grass_Color"
+					type="4" default="1" alteroutputs="2861581416" alternodes="0">
+					<inputgui widget="combobox" label="Grass Color">
+						<guicombobox>
+							<guicomboboxitem value="1" text="Normal"/>
+							<guicomboboxitem value="2" text="Dry"/>
+							<guicomboboxitem value="3" text="Custom Color"/>
+						</guicombobox>
+					</inputgui>
+				</input>
+				<input uid="2934993612" identifier="Custom_Color"
+					type="3" default="0.435294,0.623529,0.235294,1" alteroutputs="2861581416" alternodes="0">
+					<inputgui widget="color" label="Custom_Color" visibleif="input[&quot;Grass_Color&quot;] == 3"/>
+				</input>
+			</inputs>
+		</graph>
+	</graphs>
+</sbsdescription>
