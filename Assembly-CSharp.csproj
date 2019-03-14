@@ -55,8 +55,10 @@
   <ItemGroup>
      <Compile Include="Assets\EasyGrassSubstance\Example Scene\ObjectRotation.cs" />
      <Compile Include="Assets\GrassRoadRace\Script\CameraMove.cs" />
+     <Compile Include="Assets\Models\ybot\MovementController.cs" />
      <Compile Include="Assets\Scripts\Animator_Controller.cs" />
      <Compile Include="Assets\Scripts\AutoIntensity.cs" />
+     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Horse_Move.cs" />
      <Compile Include="Assets\Scripts\MoveToAbbey.cs" />
      <Compile Include="Assets\Scripts\SetSunLight.cs" />
