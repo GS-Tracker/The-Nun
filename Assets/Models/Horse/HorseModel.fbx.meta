@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: ad9982fca4a3f464d89f99f7a2b7ab3d
 ModelImporter:
-  serializedVersion: 23
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: Armature
     100002: Bone
@@ -73,6 +73,8 @@ ModelImporter:
     100134: //RootNode
     100136: Lamp
     100138: Wheels
+    100140: Wheels_MeshPart0
+    100142: Wheels_MeshPart1
     400000: Armature
     400002: Bone
     400004: Bone.001
@@ -143,6 +145,8 @@ ModelImporter:
     400134: //RootNode
     400136: Lamp
     400138: Wheels
+    400140: Wheels_MeshPart0
+    400142: Wheels_MeshPart1
     2000000: Camera
     2100000: baked_horse
     2100002: horse
@@ -153,15 +157,21 @@ ModelImporter:
     2300002: Horse_reins_leather
     2300004: Horse_reins_metal
     2300006: Wheels
+    2300008: Wheels_MeshPart0
+    2300010: Wheels_MeshPart1
     3300000: Carriage
     3300002: Horse_reins_leather
     3300004: Horse_reins_metal
     3300006: Wheels
+    3300008: Wheels_MeshPart0
+    3300010: Wheels_MeshPart1
     4300000: Horse
     4300002: Wheels
     4300004: Carriage
     4300006: Horse_reins_metal
     4300008: Horse_reins_leather
+    4300010: Wheels_MeshPart0
+    4300012: Wheels_MeshPart1
     7400000: Armature|Trot Cycle.001
     7400002: Armature|Walk Cycle
     9500000: //RootNode
@@ -186,7 +196,6 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
-    importConstraints: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -257,7 +266,6 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
-    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -268,23 +276,16 @@ ModelImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 0
-    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 1
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
-    blendShapeNormalImportMode: 1
-    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
@@ -299,6 +300,7 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 1

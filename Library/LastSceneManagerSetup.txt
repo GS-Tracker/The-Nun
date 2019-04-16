@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/FollowerCharacter.unity
+- path: Assets/Scenes/MoveRandom.unity
   isLoaded: 1
   isActive: 1
